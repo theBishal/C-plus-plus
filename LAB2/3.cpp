@@ -5,16 +5,16 @@ class convert
 {
     float f;
     public:
-    void get()
+    inline void get()
     {
         cout<<"Enter the temperature in Fahrenheit :"<<endl;
         cin>>f;
     }
-    void cal()
+    inline void cal()
     {   
         float c;
         c=5*(f-32)/9;
-        cout<<"THe temperature in centigrade is :"<<c;
+        cout<<"The temperature in centigrade is :"<<c<<endl;
     }
 };
 int main()
